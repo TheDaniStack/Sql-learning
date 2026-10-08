@@ -4,6 +4,6 @@
 --    email TEXT
 --  );
 
-INSERT INTO users (name, email) VALUES ('Danny', 'danny@gmail.com');
+--INSERT INTO users (name, email) VALUES ('john', 'john@gmqi.com');
 
-SELECT * FROM users;
+SELECT COUNT(*) FROM users;
