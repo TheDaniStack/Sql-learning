@@ -15,4 +15,18 @@
 --INSERT INTO sales (category, amount)
 --VALUES ('Clothes', 2000), ('Clothes', 3000), ('Food', 1500), ('Food', 1000);
 
-SELECT category, SUM(amount) FROM sales GROUP BY category HAVING SUM(amount) >= 3000 ORDER BY SUM(amount) DESC;
+--CREATE TABLE day6_products (
+ --   id INTEGER PRIMARY KEY,
+  --  name TEXT,
+    --price REAL
+--);
+
+--INSERT INTO day6_products (id, name, price)
+--VALUES
+  --  (1, 'T-shirt', 3000),
+    --(2, 'Jeans', 8000),
+    --(3, 'Rice', 5000);
+
+DELETE FROM day6_products WHERE id = 1;
+
+SELECT * FROM day6_products;
